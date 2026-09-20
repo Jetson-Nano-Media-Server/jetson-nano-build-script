@@ -2,6 +2,8 @@
 This repository contains a build script which combines the other repositories into a fully usable image without the need for manual configuration.
 
 ## TODO:
+- [ ] move scripts and some setups to a separate script which will execute on first boot
+- [ ] superfile (https://github.com/yorukot/superfile#macos-and-linux)
 - [ ] ask for samba setup
 - [ ] ask for wifi name and password to be baked into netcfg.yaml
   - [ ] disable power saving settings for wifi (https://askubuntu.com/questions/695867/disable-wifi-power-management/961460#961460)

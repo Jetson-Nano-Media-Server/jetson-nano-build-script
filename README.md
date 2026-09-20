@@ -2,15 +2,16 @@
 This repository contains a build script which combines the other repositories into a fully usable image without the need for manual configuration.
 
 ## TODO:
-- [ ] move scripts and some setups to a separate script which will execute on first boot
-- [ ] superfile (https://github.com/yorukot/superfile#macos-and-linux)
-- [ ] ask for samba setup
-- [ ] ask for wifi name and password to be baked into netcfg.yaml
+- [ ] **move scripts and some setups to a separate script which will execute on first boot**
+- [ ] `superfile` (https://github.com/yorukot/superfile#macos-and-linux)
+  - [ ] use `~/.ssh/rc` to autostart superfile
+- [ ] ask for `samba` setup
+- [ ] ask for wifi name and password to be baked into `netcfg.yaml`
   - [ ] disable power saving settings for wifi (https://askubuntu.com/questions/695867/disable-wifi-power-management/961460#961460)
-  - [ ] enable cronjob rather than systemd service
-- [ ] jetson_stats install (currently not working right) and powermode activation
+  - [ ] enable `cron` job rather than `systemd` service
+- [ ] `jetson_stats` install (currently not working right) and powermode activation
 - [ ] small OLED screen script for useful stats
   - [ ] Adafruit libraries
-- [ ] jellyfin bare metal install
-  - [ ] ffmpeg wrapper for jellyfin hw decoding
-    - [ ] there is an old repo with patched ffmpeg so that it can be a drag-and-drop replacement, mb try to patch a newer version of ffmpeg
+- [ ] `jellyfin` bare metal install
+  - [ ] `ffmpeg` wrapper for `jellyfin` hw decoding
+    - [ ] there is an old repo with patched `ffmpeg` so that it can be a drag-and-drop replacement, mb try to patch a newer version of `ffmpeg`

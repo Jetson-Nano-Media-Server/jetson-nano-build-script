@@ -8,6 +8,7 @@ This repository contains a build script which combines the other repositories in
 - [ ] ask for `samba` setup
 - [ ] ask for wifi name and password to be baked into `netcfg.yaml`
   - [ ] ask if wifi should be enabled at all
+  - [ ] should the network (lan, wifi) ignore router dns settings? (by adding `use-dns: no` under `dhcp4-overrides:`)
   - [x] disable power saving settings for wifi (https://askubuntu.com/questions/695867/disable-wifi-power-management/961460#961460)
   - [x] enable `cron` job rather than `systemd` service
 - [ ] `jetson_stats` install (currently not working right) and powermode activation

@@ -17,3 +17,5 @@ This repository contains a build script which combines the other repositories in
 - [ ] `jellyfin` bare metal install
   - [ ] `ffmpeg` wrapper for `jellyfin` hw decoding
     - [ ] there is an old repo with patched `ffmpeg` so that it can be a drag-and-drop replacement, mb try to patch a newer version of `ffmpeg`
+- [ ] full docker config files for servarr, prodarr, langarr and bookarr.
+  - [ ] configure `homepage` widgets and monitoring
